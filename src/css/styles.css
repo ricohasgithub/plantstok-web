@@ -1,6 +1,44 @@
 
 .container {}
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#mainNav {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+  transition: padding-top 0.3s, padding-bottom 0.3s;
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+
+#mainNav.navbar {
+  padding: 10px 16px;
+  font-size: 22px;
+}
+
+#mainNav.navbar-scroll {
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: #212529;
+}
+
+section.bg-light-section {
+  text-align: center;
+  color: white;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: bottom -20px center;
+  background-size: cover;
+  height: 100vh;
+}
+
 header.master-head {
   text-align: center;
   color: white;
