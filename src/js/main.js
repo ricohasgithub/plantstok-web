@@ -1,7 +1,8 @@
+
 window.onscroll = function() {scrollNavbar()};
 
 function scrollNavbar () {
-  if (window.scrollY > 5) {
+  if (window.scrollY > 10) {
     let element = document.getElementById("mainNav");
     element.classList.add("navbar-scroll");
   } else {

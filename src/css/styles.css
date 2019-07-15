@@ -28,6 +28,29 @@
   background-color: #212529;
 }
 
+#mainNav.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#mainNav.nav-list .nav-item {
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+#mainNav.nav-list .nav-item a {
+  color: white;
+}
+
+#mainNav.nav-list .nav-item a:hover {
+ background-color: #268237;
+}
+
 section.bg-light-section {
   text-align: center;
   color: white;
