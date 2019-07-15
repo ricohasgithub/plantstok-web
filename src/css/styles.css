@@ -5,6 +5,15 @@
   position: fixed;
   top: 0;
   width: 100%;
+  z-index:1;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
 }
 
 #mainNav {
@@ -48,18 +57,49 @@
 }
 
 #mainNav.nav-list .nav-item a:hover {
- background-color: #268237;
+  background-color: #268237;
+}
+
+#purpose-left.left .tbox {
+
+}
+
+#purpose-left.left .text {
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+#purpose-left.right .tbox {
+
+}
+
+#purpose-left.right .text {
+
 }
 
 section.bg-light-section {
   text-align: center;
-  color: white;
+  color: black;
   background-color: white;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: bottom -20px center;
   background-size: cover;
   height: 100vh;
+  padding-top: 80px;
+}
+
+section.bg-dark-section {
+  text-align: center;
+  color: white;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: bottom -20px center;
+  background-size: cover;
+  height: 100vh;
+  padding-top: 80px;
 }
 
 header.master-head {
