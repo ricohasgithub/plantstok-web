@@ -61,21 +61,54 @@
 }
 
 #purpose-left.left .tbox {
+  clear: both;
+}
 
+#purpose-left.left .emph-text {
+  padding-top: 125px;
+  padding-left: 130px;
+  font-size: 300px;
+  font-weight: 500;
+  line-height: 50px;
+  clear: both;
 }
 
 #purpose-left.left .text {
-  font-size: 80px;
+  margin-top: 130px;
+  padding-left: 145px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 50px;
+  clear: both;
+}
+
+#purpose-left.left .text-body {
+  margin-top: 5px;
+  padding-left: 145px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 10px;
+  clear: both;
+}
+
+#purpose-right.right .tbox {
+  clear: both;
+}
+
+#purpose-right.right .text {
+  padding-right: 100px;
+  font-size: 30px;
   font-weight: 700;
   line-height: 50px;
 }
 
-#purpose-left.right .tbox {
-
-}
-
-#purpose-left.right .text {
-
+#purpose-left.left .text-body {
+  margin-top: 5px;
+  padding-right: 100px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 10px;
+  clear: both;
 }
 
 section.bg-light-section {
