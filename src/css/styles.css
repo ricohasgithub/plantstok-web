@@ -65,8 +65,8 @@
 }
 
 #purpose-left.left .emph-text {
-  padding-top: 125px;
-  padding-left: 130px;
+  padding-top: 165px;
+  padding-left: 120px;
   font-size: 300px;
   font-weight: 500;
   line-height: 50px;
@@ -75,7 +75,7 @@
 
 #purpose-left.left .text {
   margin-top: 130px;
-  padding-left: 145px;
+  padding-left: 135px;
   font-size: 30px;
   font-weight: 700;
   line-height: 50px;
@@ -84,7 +84,7 @@
 
 #purpose-left.left .text-body {
   margin-top: 5px;
-  padding-left: 145px;
+  padding-left: 135px;
   font-size: 30px;
   font-weight: 700;
   line-height: 10px;
@@ -96,19 +96,45 @@
 }
 
 #purpose-right.right .text {
-  padding-right: 100px;
-  font-size: 30px;
+  margin-top: 75px;
+  padding-right: 60px;
+  font-size: 40px;
   font-weight: 700;
-  line-height: 50px;
+  clear: both;
 }
 
-#purpose-left.left .text-body {
-  margin-top: 5px;
-  padding-right: 100px;
-  font-size: 30px;
+#purpose-right.right .text-body {
+  position: absolute;
+  margin-top: 150px;
+  font-size: 25px;
   font-weight: 700;
-  line-height: 10px;
+  padding-right: 5%;
   clear: both;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+#about-right.right .text {
+  margin-top: 75px;
+  padding-right: 60px;
+  font-size: 40px;
+  font-weight: 700;
+  clear: both;
+}
+
+#about-right.right .text-body {
+  position: absolute;
+  margin-top: 150px;
+  font-size: 25px;
+  font-weight: 700;
+  padding-right: 5%;
+  clear: both;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+#team-profile-list.profile-bubble-list {
+  
 }
 
 section.bg-light-section {
