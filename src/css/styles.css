@@ -127,14 +127,54 @@
   margin-top: 150px;
   font-size: 25px;
   font-weight: 700;
-  padding-right: 5%;
   clear: both;
   text-align: justify;
   text-justify: inter-word;
 }
 
 #team-profile-list.profile-bubble-list {
-  
+  width: 100%;
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  display: table;
+}
+
+#team-profile.profile {
+  width: 23%;
+  margin-left: 15px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  border: 3px solid black;
+  display: table-cell;
+}
+
+#team-profile.profile-image {
+  height: 50px;
+  width: 45px;
+  border-radius: 50%;
+}
+
+#team-profile.profile-name {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+#team-profile.profile-title {
+  margin-bottom: 10px;
+}
+
+#team-profile.profile-desc {
+  font-size: 15px;
+  font-weight: 100;
+  margin-bottom: 5px;
 }
 
 section.bg-light-section {
