@@ -119,8 +119,19 @@
   text-justify: inter-word;
 }
 
+#about-left.scroll-img {
+  float: left;
+  margin-left: 0px;
+  width: 50%;
+  width: 648px;
+  height: 322px;
+  clear: both;
+}
+
 #about-right.right .text {
-  margin-top: 30px;
+  float: right;
+  width: 50%;
+  margin-top: 20px;
   padding-right: 60px;
   font-size: 40px;
   font-weight: 700;
@@ -128,13 +139,43 @@
 }
 
 #about-right.right .text-body {
-  position: absolute;
+  float: right;
+  margin-left: 500px;
   margin-top: 150px;
   font-size: 25px;
   font-weight: 700;
   clear: both;
   text-align: justify;
   text-justify: inter-word;
+}
+
+#tools.cascade-images {
+  margin-top: 0px;
+  margin-left: -250px;
+}
+
+#tools.mat-img {
+  position: relative;
+  margin-top: -100px;
+  margin-left: -500px;
+  width: 350px;
+  height: 200px;
+}
+
+#tools.mat-img2 {
+  position: relative;
+  margin-top: 50px;
+  margin-left: -300px;
+  width: 350px;
+  height: 200px;
+}
+
+#tools.mat-img3 {
+  position: relative;
+  margin-top: 200px;
+  margin-left: -300px;
+  width: 350px;
+  height: 200px;
 }
 
 #team-profile-list.profile-bubble-list {
