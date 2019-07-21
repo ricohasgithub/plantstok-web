@@ -176,6 +176,19 @@
   margin-left: -300px;
   width: 350px;
   height: 200px;
+  opacity: 1;
+}
+
+#tools.mat-img:hover {
+  filter: drop-shadow(8px 8px 10px gray);
+}
+
+#tools.mat-img2:hover {
+  filter: drop-shadow(8px 8px 10px gray);
+}
+
+#tools.mat-img3:hover {
+  filter: drop-shadow(8px 8px 10px gray);
 }
 
 #team-profile-list.profile-bubble-list {

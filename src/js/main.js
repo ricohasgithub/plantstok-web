@@ -1,6 +1,8 @@
 
 window.onscroll = function() {scrollNavbar()};
 
+let images = document.getElementById("");
+
 function scrollNavbar () {
   if (window.scrollY > 10) {
     let element = document.getElementById("mainNav");
