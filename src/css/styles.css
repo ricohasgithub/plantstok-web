@@ -262,6 +262,24 @@
   border: 3px solid black;
 }
 
+#team-profile.profile-gold {
+  display: table-cell;
+  width: 18%;
+  height: 305px;
+  margin-top: 7%;
+  margin-left: 15px;
+  margin-right: 10px;
+  margin-bottom: 9%;
+  padding: 0 10px;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  background-color: #f7ef00;
+  border: 3px solid black;
+}
+
 #team-profile.profile-image {
   height: 50px;
   width: 45px;
@@ -301,15 +319,34 @@
 
 #contact.contact-info a {
   display: inline-block;
-  margin-left: 100%;
+  margin-left: 162%;
   font-size: 20px;
   text-decoration: none;
   color: white;
-  padding-left: 25px;
 }
 
 #contact.contact-form {
 
+}
+
+input[type=text] {
+  width: 25%;
+  padding: 5px 5px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+textarea {
+  height: 100px;
+  width: 25%;
 }
 
 section.bg-light-section {
